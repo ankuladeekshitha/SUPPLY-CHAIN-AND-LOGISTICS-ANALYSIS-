@@ -1,0 +1,99 @@
+# Supply Chain and Logistics Analysis Dashboard
+
+## Project Overview
+
+The Supply Chain and Logistics Analysis Dashboard is a data analytics project developed using Microsoft Power BI.
+
+The main objective of this project is to analyze supply chain operations, warehouse costs, order quantities, freight rates, and warehouse capacity. The dashboard helps users understand logistics performance and supports better business decision-making through data visualization.
+
+## Project Objectives
+
+- Analyze the total number of orders and order quantities.
+- Understand order distribution across different plants.
+- Compare warehouse costs per unit.
+- Analyze freight rates by carrier type.
+- Compare the daily capacity of different warehouses.
+- Present supply chain information through interactive Power BI dashboards.
+
+## Tools and Technologies
+
+- Microsoft Power BI
+- Microsoft Excel
+- Power Query
+
+## Dataset Description
+
+The project uses a supply chain logistics dataset containing the following tables:
+
+| Table            | Description                                             |
+| ---------------- | ------------------------------------------------------- |
+| OrderList        | Order details, quantities, products, plants and ports   |
+| FreightRates     | Freight rates, carrier types and transportation details |
+| WhCosts          | Warehouse costs per unit                                |
+| WhCapacities     | Daily warehouse capacity                                |
+| ProductsPerPlant | Products associated with each plant                     |
+| PlantPorts       | Plant and port mapping                                  |
+| VmiCustomers     | Vendor-managed inventory customer information           |
+
+## Dashboard Pages
+
+### Page 1: Supply Chain Overview
+
+**Key Performance Indicators (KPIs):**
+
+- Total Orders
+- Total Order Quantity
+- Total Products
+- Total Warehouses
+- Average Freight Rate
+
+**Charts:**
+
+- Orders by Plant
+- Products per Plant
+- Orders by Origin Port
+- Average Freight Rate by Carrier Type
+
+### Page 2: Warehouse and Logistics Overview
+
+**Charts:**
+
+- Warehouse Cost per Unit
+- Order Quantity per Plant
+- Warehouse Capacity per Plant
+
+## Key Business Insights
+
+The dashboard helps identify:
+
+- Differences in order quantities across plants.
+- Warehouses with higher and lower costs per unit.
+- Differences in daily capacity among warehouses.
+- How freight rates vary across carrier types.
+- How orders are distributed across origin ports.
+
+These insights can help businesses understand warehouse performance and improve logistics planning.
+
+## Business Benefits
+
+- Supports warehouse capacity planning.
+- Helps compare warehouse operating costs.
+- Provides visibility into order distribution.
+- Helps management make data-driven decisions.
+
+## Project Limitations
+
+- The dataset contains port and plant codes rather than complete geographical coordinates, so geographical mapping is limited.
+- Freight rates are stored by route and weight range. The average listed rate should not be interpreted as actual order-level freight expenditure.
+- Order quantity totals should be validated against the original records before being used for operational decisions.
+
+## Conclusion
+
+This project demonstrates how Microsoft Power BI can be used to transform supply chain data into meaningful visual insights. The dashboard provides an overview of orders, warehouses, freight rates and logistics operations, helping users understand important areas of supply chain performance.
+
+## Author
+
+**Deekshitha ankula**
+
+**Project:** Supply Chain and Logistics Analysis Dashboard
+**Tool:** Microsoft Power BI
